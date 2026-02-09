@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules\bootstrap-icons\font\bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>ContaPortable | WhaFactura</title>
+    <title>WhaFactura | WhaFactura</title>
 
     <!-- Google tag (gtag.js) yec: Actualizado 14 dic 2023 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7Q8Z1DBFJ"></script>
@@ -54,7 +54,7 @@
                 <div class="col-lg-6">
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
                         <h1 class="fw-bold t1 text-white">WhaFactura</h1>
-                        <h3 class="t1 fw-bold" style="color: #F6DBA2">ContaPortable</h3>
+                        <h3 class="t1 fw-bold" style="color: #F6DBA2"></h3>
                         <div class="col-lg-8 text-white">
                             <h4>Crea facturas desde la comodidad de tu whatsapp</h4>
                             <p>Descubre el nuevo servicio de facturación electrónica via WhatsApp</p>
@@ -138,7 +138,7 @@
         <section class="py-5">
             <div class="container">
                 <h2 class="fw-bold text-center">Producto WhaFactura</h2>
-                <p class="text-center">A continuación te presentamos nuestros producto ContaPortable con WhaFactura.
+                <p class="text-center">A continuación te presentamos nuestros producto WhaFactura.
                 <div class="row gy-3 justify-content-center pt-3">
                     <div class="col-lg-6 col-xl-3">
                         <div class="card boder-cp">
@@ -146,7 +146,7 @@
                                 <img class="img-card" src="img/products/box-facturacion.jpg" alt="">
                             </div>
                             <div class="card-body text-center">
-                                <h5 class="card-title">ContaPortable WhaFactura</h5>
+                                <h5 class="card-title">WhaFactura</h5>
                                 <p class="card-text"> Facturador para emisión de hasta 50 
                                     Documentos Electrónicos</p>
                                 <p class="h2 fw-bold mb-0 text-primary">$20.00 </p>
@@ -156,7 +156,7 @@
                                 </div>
                             </div>
                             <div class="d-grid gap-2 px-3 pb-3">
-                                <a href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola ContaPortable! Deseo una cotización formal del producto WhaFactura" target="_blank" class="btn btn-primary"><i class="bi bi-file-earmark-text-fill me-2"></i>Solicitar una Cotización</a>
+                                <a href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola! Deseo una cotización formal del producto WhaFactura" target="_blank" class="btn btn-primary"><i class="bi bi-file-earmark-text-fill me-2"></i>Solicitar una Cotización</a>
                                 <!--<a href="" class="btn btn-outline-primary">Más Información</a>-->
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">Capacitaciones</h5>
-                                <p class="card-text">En ContaPortable, ofrecemos capacitaciones remotas al personal
+                                <p class="card-text">En WhaFactura, ofrecemos capacitaciones remotas al personal
                                     correspondiente para asegurar un óptimo manejo del software. ¡La compra del software
                                     ya incluye capacitaciones!</p>
                             </div>
@@ -225,7 +225,7 @@
                     <p class="text-white">Contáctanos para obtener más información sobre nuestros productos con Factura
                         Electrónica. Puedes programar una presentación remota a través de Google Meet para explorar a
                         fondo el funcionamiento de nuestros programas y elegir la mejor opción para tu negocio.</p>
-                    <a class="" href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola ContaPortable! tengo algunas dudas sobre WhaFactura, ¿me pueden ayudar?" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="¡Contactate con nosotros!">
+                    <a class="" href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola! tengo algunas dudas sobre WhaFactura, ¿me pueden ayudar?" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="¡Contactate con nosotros!">
                         <i class="bi bi-whatsapp text-shamrock-400" style="font-size: 150px;"></i>
                     </a>
 
@@ -244,7 +244,7 @@
 
         <section class="bg-black-haze-50 py-5">
             <div class="container">
-                <p class="text-muted small mb-4 mb-lg-0 text-center">&copy; ContaPortable 2026.Todos los derechos
+                <p class="text-muted small mb-4 mb-lg-0 text-center">&copy; WhaFactura 2026.Todos los derechos
                     reservados.
             </div>
         </section>
