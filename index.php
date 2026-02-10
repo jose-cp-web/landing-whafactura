@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules\bootstrap-icons\font\bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>WhaFactura | WhaFactura</title>
+    <title> "WhaFactura | Crea facturas desde la comodidad de tu WhatsApp"</title>
 
     <!-- Google tag (gtag.js) yec: Actualizado 14 dic 2023 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7Q8Z1DBFJ"></script>
@@ -56,7 +56,7 @@
                         <h1 class="fw-bold t1 text-white">WhaFactura</h1>
                         <h3 class="t1 fw-bold" style="color: #F6DBA2"></h3>
                         <div class="col-lg-8 text-white">
-                            <h4>Crea facturas desde la comodidad de tu whatsapp</h4>
+                            <h4>Crea facturas desde la comodidad de tu  WhatsApp</h4>
                             <p>Descubre el nuevo servicio de facturación electrónica via WhatsApp</p>
                         </div>
                         <div class="text-start text-white">
