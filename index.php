@@ -99,7 +99,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Ingresa datos Fiscales!</h5>
-                                <p class="card-text">Proprociana los datos tributarios de tu empresa y RUT.
+                                <p class="card-text">Proporciona los datos tributarios de tu empresa y RUT.
                                     </p>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title">¡Recibe tu comprobante!</h5>
-                                <p class="card-text">Recibe la factura electrónica en el metodo elegido.
+                                <p class="card-text">Recibe la factura electrónica en el método elegido.
                                     </p>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
         <section class="py-5">
             <div class="container">
                 <h2 class="fw-bold text-center">Producto WhaFactura</h2>
-                <p class="text-center">A continuación te presentamos nuestros producto WhaFactura.
+                <p class="text-center">A continuación te presentamos nuestro producto WhaFactura.
                 <div class="row gy-3 justify-content-center pt-3">
                     <div class="col-lg-6 col-xl-3">
                         <div class="card boder-cp">
