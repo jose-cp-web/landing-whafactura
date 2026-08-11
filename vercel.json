@@ -1,11 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/dte/:id",
-      "destination": "https://whafactura-website.vercel.app/dte/:id",
-      "permanent": false
-    }
-  ],
   "rewrites": [
     {
       "source": "/(.*)",
