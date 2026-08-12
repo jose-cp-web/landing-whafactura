@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/dte/actividad-economica",
+      "destination": "https://whafactura-website.vercel.app/dte/actividad-economica",
+      "permanent": false
+    },
+    {
       "source": "/dte/:id",
       "destination": "https://whafactura-website.vercel.app/dte/:id",
       "permanent": false
