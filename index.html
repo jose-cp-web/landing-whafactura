@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>Facturación por WhatsApp en segundos | WhaFactura</title>
-    <meta name="description" content="Emite facturas electrónicas directamente desde WhatsApp en El Salvador con WhaFactura. Rápido, seguro y sin instalaciones.">
+    <meta name="description"
+        content="Emite facturas electrónicas directamente desde WhatsApp en El Salvador con WhaFactura. Rápido, seguro y sin instalaciones.">
 
     <meta property="og:title" content="Facturación por WhatsApp en segundos | WhaFactura">
     <meta property="og:image" content="https://www.whafactura.com/img/whafactura.png">
@@ -25,157 +27,322 @@
 </head>
 
 <body>
+
+    <!-- Banner principal -->
     <header class="py-5 bg-gradient-magic">
         <div class="container py-5">
             <div class="row align-items-center">
+
                 <div class="col-lg-6">
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
+
                         <h1 class="fw-bold t1 text-white">WhaFactura</h1>
+
                         <div class="col-lg-8 text-white">
                             <h4>Crea facturas desde la comodidad de tu WhatsApp</h4>
-                            <p>Descubre el nuevo servicio de facturación electrónica vía WhatsApp</p>
+                            <p>Descubre el nuevo servicio de facturación electrónica vía WhatsApp.</p>
                         </div>
+
                         <nav class="text-start text-white">
                             <ul>
-                                <li>No necesitas instalar nada</li>
-                                <li>No necesitas aprender nada</li>
-                                <li>Tan fácil como chatear con alguien</li>
+                                <li>No necesitas instalar nada.</li>
+                                <li>No necesitas aprender nada.</li>
+                                <li>Tan fácil como chatear con alguien.</li>
                             </ul>
                         </nav>
+
+                        <!-- ÚNICO BOTÓN -->
+                        <button type="button" class="btn btn-lg btn-primary mt-3"
+                            data-bs-toggle="modal" data-bs-target="#videoModal">
+                            <i class="bi bi-play-circle-fill me-2"></i>Ver cómo funciona
+                        </button>
+
                     </div>
                 </div>
+
                 <div class="col-lg-6 d-flex justify-content-center">
-                    <img class="img-fluid img-banner" src="img/Mockups/whafacturalogov3.png" alt="Logo de WhaFactura mostrando interfaz en dispositivo móvil" width="350" />
+                    <img class="img-fluid img-banner"
+                        src="img/Mockups/whafacturalogov3.png"
+                        alt="Logo de WhaFactura mostrando interfaz en dispositivo móvil"
+                        width="350">
                 </div>
+
             </div>
         </div>
     </header>
 
+    <!-- Modal del video -->
+    <div class="modal fade" id="videoModal" tabindex="-1"
+        aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">
+                        Demostración de WhaFactura
+                    </h5>
+
+                    <button type="button" class="btn-close"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe id="videoFrame"
+                            src=""
+                            title="Video de WhaFactura"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <main>
+
+        <!-- ¿Cómo funciona? -->
         <section id="como-funciona" class="py-5">
             <div class="container">
-                <h2 class="text-center fw-bold pb-3">¿Cómo funciona whafactura?</h2>
-                <h5 class="text-center pb-5">Emite facturas en minutos y envíalas automáticamente por correo o WhatsApp.</h5>
-                
+
+                <h2 class="text-center fw-bold pb-3">
+                    ¿Cómo funciona WhaFactura?
+                </h2>
+
+                <h5 class="text-center pb-5">
+                    Emite facturas en minutos y envíalas automáticamente por correo o WhatsApp.
+                </h5>
+
                 <div class="row gy-4 justify-content-center">
+
                     <article class="col-lg-6 col-xl-3">
                         <div class="card card-step">
-                            <img class="img-card" src="img/icons/bot.png" alt="Icono de asistente virtual o bot de facturación">
+                            <img class="img-card"
+                                src="img/icons/bot.png"
+                                alt="Icono de asistente virtual o bot de facturación">
+
                             <div class="card-body text-center">
                                 <h3 class="h5 card-title">¡Solicita la factura!</h3>
-                                <p class="card-text">Inicia el proceso pidiendo una factura al bot.</p>
+                                <p class="card-text">
+                                    Inicia el proceso pidiendo una factura al bot.
+                                </p>
                             </div>
                         </div>
                     </article>
 
                     <article class="col-lg-6 col-xl-3">
                         <div class="card card-step">
-                            <img class="img-card" src="img/icons/planificacion-fiscal.png" alt="Icono de documentos legales y fiscales">
+                            <img class="img-card"
+                                src="img/icons/planificacion-fiscal.png"
+                                alt="Icono de documentos legales y fiscales">
+
                             <div class="card-body text-center">
-                                <h3 class="h5 card-title">¡Ingresa datos Fiscales!</h3>
-                                <p class="card-text">Proporciona los datos tributarios de tu empresa y RUT.</p>
+                                <h3 class="h5 card-title">¡Ingresa datos fiscales!</h3>
+                                <p class="card-text">
+                                    Proporciona los datos tributarios de tu empresa y RUT.
+                                </p>
                             </div>
                         </div>
                     </article>
 
                     <article class="col-lg-6 col-xl-3">
                         <div class="card card-step">
-                            <img class="img-card" src="img/icons/lista.png" alt="Icono de lista de productos y servicios">
+                            <img class="img-card"
+                                src="img/icons/lista.png"
+                                alt="Icono de lista de productos y servicios">
+
                             <div class="card-body text-center">
                                 <h3 class="h5 card-title">¡Agrega los detalles!</h3>
-                                <p class="card-text">Llena los campos con productos o servicios a facturar.</p>
+                                <p class="card-text">
+                                    Llena los campos con productos o servicios a facturar.
+                                </p>
                             </div>
                         </div>
                     </article>
 
                     <article class="col-lg-6 col-xl-3">
                         <div class="card card-step">
-                            <img class="img-card" src="img/icons/recibir .png" alt="Icono de recepción de comprobante electrónico">
+                            <img class="img-card"
+                                src="img/icons/recibir .png"
+                                alt="Icono de recepción de comprobante electrónico">
+
                             <div class="card-body text-center">
                                 <h3 class="h5 card-title">¡Recibe tu comprobante!</h3>
-                                <p class="card-text">Recibe la factura electrónica en el método elegido.</p>
+                                <p class="card-text">
+                                    Recibe la factura electrónica en el método elegido.
+                                </p>
                             </div>
                         </div>
                     </article>
+
                 </div>
             </div>
         </section>
 
+        <!-- Producto -->
         <section id="productos" class="py-5 bg-light">
             <div class="container text-center">
+
                 <h2 class="fw-bold">Producto WhaFactura</h2>
                 <p>A continuación te presentamos nuestro producto WhaFactura.</p>
+
                 <div class="row justify-content-center pt-3">
                     <article class="col-lg-5 col-xl-4">
                         <div class="card boder-cp">
+
                             <div class="img-product-container">
-                                <img src="img/Mockups/whafacturalogov3.png" alt="Vista previa del producto WhaFactura en WhatsApp" class="img-fluid">
+                                <img src="img/Mockups/whafacturalogov3.png"
+                                    alt="Vista previa del producto WhaFactura en WhatsApp"
+                                    class="img-fluid">
                             </div>
+
                             <div class="card-body">
                                 <h3 class="h5 card-title">WhaFactura</h3>
-                                <p class="card-text">Facturador para emisión de hasta 50 Documentos Electrónicos</p>
+
+                                <p class="card-text">
+                                    Facturador para emisión de hasta 50 Documentos Electrónicos.
+                                </p>
+
                                 <p class="h2 fw-bold text-primary">$20.00</p>
-                                <small class="fw-bold d-block">Para una empresa con hasta 50 DTE's mensuales</small>
-                                <small>Mas IVA</small>
+
+                                <small class="fw-bold d-block">
+                                    Para una empresa con hasta 50 DTE's mensuales.
+                                </small>
+
+                                <small>Más IVA.</small>
                             </div>
+
                             <div class="d-grid gap-2 px-3 pb-3">
-                                <a href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola! Deseo una cotización formal del producto WhaFactura" target="_blank" class="btn btn-primary">
-                                    <i class="bi bi-file-earmark-text-fill me-2"></i>Solicitar una Cotización
+                                <a href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola! Deseo una cotización formal del producto WhaFactura"
+                                    target="_blank"
+                                    class="btn btn-primary">
+                                    <i class="bi bi-file-earmark-text-fill me-2"></i>
+                                    Solicitar una cotización
                                 </a>
                             </div>
+
                         </div>
                     </article>
                 </div>
+
             </div>
         </section>
 
+        <!-- Beneficios -->
         <section id="beneficios" class="bg-black-haze-50 py-5">
             <div class="container">
-                <h2 class="fw-bold text-center pb-3">¿Que ofrecemos en nuestros servicios?</h2>
+
+                <h2 class="fw-bold text-center pb-3">
+                    ¿Qué ofrecemos en nuestros servicios?
+                </h2>
+
                 <div class="row gy-3">
+
                     <article class="col-lg-4 text-center">
-                        <img class="img-card-sm" src="img/icons/capacitacion.png" alt="Icono de capacitación técnica remota">
+                        <img class="img-card-sm"
+                            src="img/icons/capacitacion.png"
+                            alt="Icono de capacitación técnica remota">
+
                         <h3 class="h5 fw-bold">Capacitaciones</h3>
-                        <p>Incluimos capacitaciones remotas para asegurar un óptimo manejo del software.</p>
+
+                        <p>
+                            Incluimos capacitaciones remotas para asegurar un óptimo manejo del software.
+                        </p>
                     </article>
+
                     <article class="col-lg-4 text-center">
-                        <img class="img-card-sm" src="img/icons/actualizacion.png" alt="Icono de actualizaciones de software legales">
+                        <img class="img-card-sm"
+                            src="img/icons/actualizacion.png"
+                            alt="Icono de actualizaciones de software legales">
+
                         <h3 class="h5 fw-bold">Actualizaciones</h3>
-                        <p>Mejoras constantes para adaptarse a cambios legislativos en El Salvador.</p>
+
+                        <p>
+                            Mejoras constantes para adaptarse a cambios legislativos en El Salvador.
+                        </p>
                     </article>
+
                     <article class="col-lg-4 text-center">
-                        <img class="img-card-sm" src="img/icons/apoyo-tecnico.png" alt="Icono de soporte técnico especializado">
+                        <img class="img-card-sm"
+                            src="img/icons/apoyo-tecnico.png"
+                            alt="Icono de soporte técnico especializado">
+
                         <h3 class="h5 fw-bold">Soporte Técnico</h3>
-                        <p>Equipo disponible vía correo o videoconferencia para resolver dudas.</p>
+
+                        <p>
+                            Equipo disponible vía correo o videoconferencia para resolver dudas.
+                        </p>
                     </article>
+
                 </div>
+
             </div>
         </section>
 
+        <!-- Contacto -->
         <section id="contacto" class="bg-elephant-cp text-white py-5">
             <div class="container text-center">
-                <h2 class="fw-bold text-salomie-200">¡Contactate con nosotros!</h2>
-                <p>Contáctanos para obtener más información o programar una presentación remota.</p>
-                <a href="https://api.whatsapp.com/send?phone=50379898203&text= ¡Hola! tengo algunas dudas sobre WhaFactura, ¿me pueden ayudar?" target="_blank" aria-label="Contactar por WhatsApp">
-                    <i class="bi bi-whatsapp text-shamrock-400" style="font-size: 100px;"></i>
+
+                <h2 class="fw-bold text-salomie-200">
+                    ¡Contáctate con nosotros!
+                </h2>
+
+                <p>
+                    Contáctanos para obtener más información o programar una presentación remota.
+                </p>
+
+                <a href="https://api.whatsapp.com/send?phone=50379898203&text=¡Hola! Tengo algunas dudas sobre WhaFactura, ¿me pueden ayudar?"
+                    target="_blank"
+                    aria-label="Contactar por WhatsApp">
+                    <i class="bi bi-whatsapp text-shamrock-400"
+                        style="font-size:100px;"></i>
                 </a>
-                <p class="mt-3" style="color: #F7E378;">*Solo WhatsApp Chat, atención telefónica no disponible.</p>
+
+                <p class="mt-3" style="color:#F7E378;">
+                    *Solo WhatsApp Chat, atención telefónica no disponible.
+                </p>
+
                 <address class="mt-4">
-                    <p class="fw-bold fs-5"><i class="bi bi-clock-fill me-2"></i>Horarios de atención:</p>
+                    <p class="fw-bold fs-5">
+                        <i class="bi bi-clock-fill me-2"></i>Horarios de atención:
+                    </p>
+
                     <ul class="list-unstyled">
                         <li>Lunes a Viernes: 8:00 am - 5:00 pm</li>
                         <li>Sábado: 8:00 am - 12:00 pm</li>
                     </ul>
                 </address>
+
             </div>
         </section>
+
     </main>
 
     <footer class="bg-black-haze-50 py-4 text-center">
-        <p class="text-muted small mb-0">&copy; WhaFactura 2026. Todos los derechos reservados.</p>
+        <p class="text-muted small mb-0">
+            &copy; WhaFactura 2026. Todos los derechos reservados.
+        </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
-</body>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const videoModal = document.getElementById('videoModal');
+            const videoFrame = document.getElementById('videoFrame');
+            const videoURL = "https://www.youtube.com/embed/-SQ8fln26Ss";
+
+            videoModal.addEventListener('show.bs.modal', () => {
+                videoFrame.src = videoURL + "?autoplay=1";
+            });
+
+            videoModal.addEventListener('hidden.bs.modal', () => {
+                videoFrame.src = "";
+            });
+        });
+    </script>
+
+</body>
 </html>
