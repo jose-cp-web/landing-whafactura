@@ -51,6 +51,31 @@
         </div>
     </header>
 
+    <section class="py-4 text-center">
+        <div class="container">
+            <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal">
+                <i class="bi bi-play-circle-fill me-2"></i>Demo WhaFactura
+            </button>
+        </div>
+    </section>
+
+    <!-- Modal del video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Demostración de WhaFactura</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe id="videoFrame" src="" title="Video de WhaFactura" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <main>
         <section id="como-funciona" class="py-5">
             <div class="container">
@@ -176,6 +201,20 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const videoModal = document.getElementById('videoModal');
+            const videoFrame = document.getElementById('videoFrame');
+            const videoURL = "https://www.youtube.com/embed/-SQ8fln26Ss";
+
+            videoModal.addEventListener('show.bs.modal', () => {
+                videoFrame.src = videoURL + "?autoplay=1";
+            });
+            videoModal.addEventListener('hidden.bs.modal', () => {
+                videoFrame.src = "";
+            });
+        });
+    </script>
 </body>
 
 </html>
